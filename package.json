@@ -1,0 +1,30 @@
+{
+    "name": "intparts",
+    "description": "Manipulate the integer parts of a JS Number, including frexp and ldexp.",
+    "author": "Christoph Zurnieden <czurnieden@gmx.de>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/czurnieden/intparts/"
+    },
+    "bugs": {
+        "url": "https://github.com/czurnieden/intparts/issues"
+    },
+    "devDependencies": {
+        "vows": "^0.5.x"
+    },
+    "bin" : "./bin/intparts.js",
+    "version":"0.0.1",
+    "scripts": {
+        "test": "node ./intparts-test.js"
+    },
+    "main": "intparts.js",
+    "license": "MIT",
+    "keywords": [
+        "double",
+        "high word",
+        "low word",
+        "ldexp",
+        "frexp",
+        "asm.js"
+    ]
+}
